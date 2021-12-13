@@ -27,6 +27,10 @@ body {
     width:480px
 }
 
+svg{
+    height: 20px;
+}
+
 @media only screen and (max-width: 1024px) {
     .small {
         width: 800px;
