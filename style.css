@@ -1,20 +1,95 @@
-html {
-    /* Base styles go here */
-    font: 14px/1.5 Arial, sans-serif;
-   }
-
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: rgb(243, 244, 246);
+    font-family: 'IBM Plex Mono', monospace;
+    overflow-x: hidden;
 }
 
-.section{
+.section {
     background-color: white;
 }
 
-.avatar{
+.avatar {
     border-radius: 50%;
     height: 100px;
     width: 100px;
 }
+.header{
+    width: 800px;
+}
+
+.small{
+    width:300px;
+}
+
+.big{
+    width:480px
+}
+
+@media only screen and (max-width: 1024px) {
+    .small {
+        width: 800px;
+    }
+    .big {
+        width: 800px;
+    }
+  }
+
+  @media only screen and (max-width: 844px) {
+    .header{
+        width: 600px;
+    }
+    .small {
+        width: 600px;
+    }
+    .big {
+        width: 600px;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    .header{
+        width: 450px;
+    }
+    .small {
+        width: 450px;
+    }
+    .big {
+        width: 450px;
+    }
+    .avatar {
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .header{
+        width: 400px;
+    }
+    .small {
+        width: 400px;
+    }
+    .big {
+        width: 400px;
+    }
+    .avatar {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+    }
+  } 
+
+  @media only screen and (max-width: 600px) {
+    .header{
+        width: 350px;
+    }
+    .small {
+        width: 350px;
+    }
+    .big {
+        width: 350px;
+    }
+  } 
